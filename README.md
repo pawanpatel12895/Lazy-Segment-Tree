@@ -9,7 +9,7 @@ Build 0: <br>
 
 * upcoming builds :<br>
 --> initialization with given values <br>
---> acceptance any datatype<br>
+--> acceptance of any datatype<br>
 --> custom update function<br>
 --> 
 
