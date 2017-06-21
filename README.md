@@ -1,30 +1,30 @@
 # lazy propogating segment Tree.
-# need reivew
+### need reivew
 
-Build 0: 
---> update and retrieval of range sum.
---> all nodes are initialized with zero.
---> only integer values are accepted
+Build 0: <br>
+--> update and retrieval of range sum.<br>
+--> all nodes are initialized with zero.<br>
+--> only integer values are accepted<br>
 --> 
 
-* upcoming builds :
---> initialization with given values
---> acceptance any datatype
---> custom update function
+* upcoming builds :<br>
+--> initialization with given values <br>
+--> acceptance any datatype<br>
+--> custom update function<br>
 --> 
 
 
-## cause counting starts with zero. 
+** cause counting starts with zero. ** 
 
-.
-╱▔╲╱▔▔▔▔╲╱▔╲
-▏ ╱  ▂ ▂ ╲ ▕
-╲╳▏ ┏▅┐ ┏▅┐╳╱
-  ▏╭╰━╯╰━┻━━╮
-╱▔▏▕     ▕▔▔▔▏
-▏ ▏▕      ╲▂╱▏
-▏ ▏ ╲   ▕╲ ┃▕╱▏
-▏ ╲  ▔▔▔▔▔▔▔▔▔▏
-▏ ▏╲▂▂▂▂▂▂▂▂▂╱
-▏ ▏        ▕
-▏ ▏        ▕
+
+╱▔╲╱▔▔▔▔╲╱▔╲ <br>
+▏ /  ▂ ▂ ╲ ▕  <br>
+╲╳▏ ┏▅┐ ┏▅┐╳╱ <br>
+  ▏╭╰━╯╰━┻━━╮ <br>
+╱▔▏▕     ▕▔▔▔▏<br>
+▏ ▏▕      ╲▂╱▏ <br>
+▏ ▏ ╲   ▕╲ ┃▕╱▏ <br>
+▏ ╲  ▔▔▔▔▔▔▔▔▔▏ <br>
+▏ ▏╲▂▂▂▂▂▂▂▂▂╱ <br>
+▏ ▏        ▕ <br>
+▏ ▏        ▕ <br>
