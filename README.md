@@ -34,24 +34,37 @@ Range Update O(log N)<br>
 ***usage & discription: ***
 
 1. LazyTree() : creates an empty Tree. with no nodes at all. useless.<br>
-		LazyTree L();
+```
+LazyTree L();
+```
 2. LazyTree(long long size) : creates tree with Size = size, with default value = 0, for every node.<br>
-		LazyTree L(4);
-3. LazyTree(long long size, long long m) : creates tree with Size = size, with default value = m, for every node.
-		LazyTree L(4,2);
-4. LazyTree(vector<long long> ) : creates a tree from the array. 
-		vector<long long> vect(4,2); //array values can be different
-        LazyTree L(vect);
-
+```
+LazyTree L(4);
+```
+3. LazyTree(long long size, long long m) : creates tree with Size = size, with default value = m, for every node.<br>
+```
+LazyTree L(4,2);
+```
+4. LazyTree(vector<long long> ) : creates a tree from the array.<br> 
+```
+vector<long long> vect(4,2); //array values can be different
+LazyTree L(vect);
+```
 
 1. long long size() : returns initialized size. useless.
 2. void update(long long pos, long long val) : element at position = pos, increments with value = val;
-		L.update(4,7); 
-        // equivalent to L.update(4,4,7);
+```
+L.update(4,7); 
+// equivalent to L.update(4,4,7);
+```
 3. void update(long long L, long long R, long long val) : range update function. increments the values = val, in the range [L,R].
-		L.update(4,5,7);
+```
+L.update(4,5,7);
+```
 4. long long retrieve(long long L, long long R) : query the sum in range [L,R]
-		L.retrieve(4,5);	
+```
+L.retrieve(4,5);	
+```
 ***
 
 (\\____/) <br>
